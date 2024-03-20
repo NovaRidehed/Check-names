@@ -14,8 +14,7 @@
         {
             foreach(string s in names)
             {
-                bool itsAMatch = (s == name);
-                if (itsAMatch == true)
+                if (s == name)
                 {
                     return true;
                 }
